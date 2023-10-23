@@ -1,0 +1,42 @@
+.container1
+            {    
+                background-color: #ffffff9a;
+                margin: 5% auto ;
+                border: 2px solid #b62121bd;
+                padding: 3%;
+                padding-top: 8%;
+                padding-bottom: 15%;
+                border-radius: 10px;
+              
+            }
+            
+            input[type=text], input[type=password] 
+            {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 2px solid #ccc;
+                border-radius: 10px;
+                box-sizing: border-box;
+            }
+            button 
+            {
+                background-color: #04AA6D;
+                color: white;
+                padding: 13px 20px;           
+                cursor: pointer;
+                width: 100%;
+                border: none;
+                border-radius: 5px;
+            }
+            button:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+    body 
+    {
+      padding-bottom: 237px;
+    }
+}
